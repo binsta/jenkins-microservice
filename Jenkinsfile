@@ -1,6 +1,6 @@
 pipeline {
 	// agent any
-	agent { docker { inage 'node:13.8'}}
+	agent { docker { inage 'node:13.8'} }
 	stages {
 		stage('Build'){
 			steps {
